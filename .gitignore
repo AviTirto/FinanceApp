@@ -1,6 +1,25 @@
-*.db
-*.sqlite
-.vscode/
-.DS_Store
+# .NET build files
 bin/
 obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# SQLite DB
+*.db
+*.sqlite
+
+# EF Core migration snapshots (optional to exclude)
+**/Migrations/*Snapshot.cs
+
+# VS Code settings
+.vscode/
+
+# Environment files (if used)
+.env
+
+# macOS system files
+.DS_Store
