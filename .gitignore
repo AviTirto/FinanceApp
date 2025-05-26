@@ -1,1 +1,6 @@
-app.db
+*.db
+*.sqlite
+.vscode/
+.DS_Store
+bin/
+obj/
